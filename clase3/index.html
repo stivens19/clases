@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formulario Sencillo</h2>
+    <form>
+        <div>
+            <label>Nombre:</label> <br>
+            <input value="Stivens" type="text" placeholder="Ingrese un nombre">
+        </div>
+        <div>
+            <label>Apellidos:</label> <br>
+            <input type="text" placeholder="Ingrese Apellidos">
+        </div>
+        <div>
+            <label>Email:</label> <br>
+            <input type="email" placeholder="Ingrese Email">
+        </div>
+        <div>
+            <label>Contraseña:</label> <br>
+            <input type="password" placeholder="Ingrese contraseña">
+        </div>
+        <div>
+            <label>Descripcion de usuario:</label> <br>
+            <textarea cols="30" rows="6" placeholder="Ingrese descripcion"></textarea>
+        </div>
+        <div>
+            <h5>Lenguajes que dominas</h5>
+            <label>PHP</label>
+            <input name="lenguajes" type="checkbox">
+            <br>
+            <label>JS</label>
+            <input name="lenguajes" type="checkbox">
+            <br>
+            <label>GO</label>
+            <input name="lenguajes" type="checkbox">
+        </div>
+        <div>
+            <h5>Seleccion de sexo</h5>
+            <label>Masculino</label>
+            <input name="sexo" type="radio">
+            <br>
+            <label>Femenino</label>
+            <input name="sexo" type="radio">
+        </div>
+        <!--Calendario HTML-->
+        <div>
+            <label>Fecha de nacimiento:</label> <br>
+            <input type="date" placeholder="Ingrese fecha de nacimiento">
+        </div>
+        <input type="range">
+        <input type="color">
+       <select>
+              <option>Seleccione su universidad</option>
+              <option value="uncp"></option>
+              <option>UNAS</option>
+              <option>UNAM</option>
+              <option>UNMSM</option>
+       </select>
+        <button type="submit">Enviar</button>
+        <input type="submit">
+    </form>
+</body>
+</html>
