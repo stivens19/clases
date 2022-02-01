@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Supermercado+One&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    color: blueviolet;
+}
+
+#titulo-rojo{
+    color: red;
+}
+
+.caja1{
+    background: rgba(54, 155, 214, 0.479);
+    
+}
+
+/* Estilos para textos  */
+.subtitulo{
+    text-align:center; /* El text align es para la alineacion de textos center|justify|right|left\*/
+    font-size:40px; /*El font size permite cambiar el tamaño de la letra*/
+    color: rgba(119, 56, 179, 0.753); /*la propiedad color me permite cambiar color de texto*/
+    font-family: 'Supermercado One', cursive; /*la propiedad font-family permite cambiar el tipo de letra*/
+}
+.letra-capital{
+   font-weight: bold; /*permite manejar el grosor del texto*/ 
+   font-size: 50px;
+   font-style: italic; /*permite cambiar el estilo de la letra*/
+   font-family: 'Supermercado One', cursive; 
+}
+.texto1{
+    text-align: justify;
+    /*uppercase*/
+    text-transform:uppercase;/*Esta propiedad permite cambiar los estilos del texto como mayusculas,minusculas, capitales /capitalize/uppercase/lowercase*/
+}
+/*Colores*/
+
+.texto2{
+    background: green; /*Se puede usar colores en ingles*/
+    background: #3b5998; /*Se puede usar colores en hexadecimal*/
+    background: rgb(0,50,59); /*Se puede usar colores en r->red g ->green b->blue*/
+    background: rgba(0,50,59,0.6); /*Se puede usar colores en r->red g ->green b->blue a->transparencia*/
+    /* colores hsl*/
+    background: hsl(0,100%,50%); /*Se puede usar colores en hsl*/
+    background: #605C4C;
+}
+
