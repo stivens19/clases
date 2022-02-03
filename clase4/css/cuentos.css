@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #151729;
+    color: rgba(201, 200, 200, 0.705);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:60px;
+}
+.titulo-cuento{
+    text-transform: uppercase;
+    color: rgb(33, 143, 233);
+}
+
 .img-cuento{
-    width:150px;
+    width:300px;
 }
-.cuento1{
-    background: rgba(236, 132, 132, 0.295);
+.capitalizar{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
 }
+.importante{
+    color: rgba(102, 219, 24, 0.849);
+}
+
+
