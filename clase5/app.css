@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.caja{
+    cursor: cell;
+    background: rgba(0,187,255,0.53);
+    background: linear-gradient(90deg,rgba(0,187,255,0.53) 0%, rgba(0,255,0,0.33) 80%);
+    background: -webkit-linear-gradient(90deg,rgba(0,187,255,0.53) 0%, rgba(0,255,0,0.33) 80%);
+    background: -moz-linear-gradient(90deg,rgba(0,187,255,0.53) 0%, rgba(0,255,0,0.33) 80%);
+    width: 400px;
+    height: 200px;
+    border: 12px groove #6ccc75;
+    border-radius: 5px;
+    padding: 10px;
+    /*margin-top:100px ;/*margen superior*/
+    /*margin-right: 50px;/*margen derecha*/
+    /*margin-bottom: 10px;/*margen inferior*/
+    /*margin-left: 25px;/*margen izquierda*/
+    /*margin: 40px /*arriba y abajo*//* 50px /*derecha e izquierda*/; 
+    /*margin: 10px /*margen superior*//* 20px /*margen derecho*/ /*30px /*margen inferior*/ /*40px/*margen izquierdo*//*;*/
+    margin: 10px auto;
+    box-shadow: 4px 4px 4px 0px rgba(153,153,153,0.37);
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(153,153,153,0.37);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(153,153,153,0.37);
+}
+h3{
+    text-shadow: 3px 7px 7px rgba(116,113,113,0.82);
+}
