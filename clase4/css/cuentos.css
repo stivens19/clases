@@ -13,14 +13,35 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-size:60px;
+    text-shadow: -6px 5px 6px rgba(228, 225, 225, 0.425);
+    border-bottom: solid 5px rgba(255, 255, 255, 0.438);
 }
 .titulo-cuento{
     text-transform: uppercase;
     color: rgb(33, 143, 233);
+    margin: 10px 20px;
+    border-bottom: solid 3px rgba(0, 140, 255, 0.493);
+    border-right:solid 3px rgba(0, 140, 255, 0.493) ;
+    width: 120px;
+    padding: 5px;
 }
-
+.texto-cuento{
+    padding: 30px;
+}
+.img-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 .img-cuento{
+    cursor: pointer;
+    box-shadow: -7px 8px 5px 0px rgba(171,171,171,0.75);
+    -webkit-box-shadow: -7px 8px 5px 0px rgba(171,171,171,0.75);
+    -moz-box-shadow: -7px 8px 5px 0px rgba(171,171,171,0.75);
     width:300px;
+    filter: grayscale(57%) sepia(26%) brightness(108%) hue-rotate(39deg) saturate(288%);
+    -webkit-filter: grayscale(57%) sepia(26%) brightness(108%) hue-rotate(39deg) saturate(288%);
+    -moz-filter: grayscale(57%) sepia(26%) brightness(108%) hue-rotate(39deg) saturate(288%);
 }
 .capitalizar{
     text-transform: uppercase;
