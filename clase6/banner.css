@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.padre{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+p{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    height: 50%;
+    
+    color: rgba(255, 255, 255, 0.664);
+    text-align: center;
+    font-size: 25px;
+    bottom: -100%;
+    left: 0;
+    transition: all ease .5s;
+}
+
+.padre:hover p{
+   bottom:0;
+}

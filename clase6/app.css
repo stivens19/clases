@@ -1,0 +1,22 @@
+.enlace1{
+    display: inline-block;
+    width: 400px;
+    background: rgb(231, 131, 131);
+}
+.enlace2{
+    background: rgb(87, 233, 153);
+}
+
+h3{
+    background: rgb(50, 110, 219);
+    width: 300px; /*los elementos en bloque tienen la propiedad de width y height*/
+}
+p{
+    background: rgb(226, 166, 38);
+}
+/*
+    display:block; vuelve cualquier elemento en un elemento en bloque
+    display:inline; vuelve cualquier elemento en un elemento en linea
+    display:inline-block; vuelve cualquier elemento en un elemento en linea y bloque, toma lo mejor de ambos
+
+*/

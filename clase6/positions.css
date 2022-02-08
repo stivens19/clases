@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.padre{
+    background: rgb(45, 129, 238);
+    height: 50vh;
+    position: relative;
+}
+.hijo{
+    background: rgb(85, 231, 93);
+    height: 100px;
+    width: 50vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*
+    position ->habilita 4 propiedades top->arriba
+    bottom->abajo
+    left->izquierda
+    right->derecha
+*/
