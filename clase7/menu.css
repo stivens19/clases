@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+header{
+    background: rgb(31, 56, 199);
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+ul{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li:hover{
+    cursor: pointer;
+    background: rgb(233, 128, 128);
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgba(138, 138, 138, 0.555);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    flex: 0 0 calc(25% - 10px);
+}
+.card__content{
+    padding: 10px;
+    background: rgba(77, 144, 189, 0.5);
+    color: white;
+}
