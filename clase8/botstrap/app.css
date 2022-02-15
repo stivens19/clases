@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shizuru&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.font-secundario{
+    font-family: 'Shizuru', cursive;
+}
+.bg-navbar{
+    background: rgb(2, 52, 109);
+}
+
+.navbar-toggler{
+    background: rgba(46, 154, 216, 0.466);
+    border: none;
+    border-radius: 1px;
+}
+.dropdown-menu{
+    background: rgb(117, 167, 224);
+    border-radius: 1px;
+}
+.dropdown-item{
+    color: white;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+.navbar-toggler:focus{
+    outline: none!important;
+}
+
+.dropdown-item:hover{
+    background: rgb(33, 67, 180);
+    color: white;
+    transition: all ease 0.3s;
+    transform: rotate(2deg);
+}
