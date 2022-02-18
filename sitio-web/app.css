@@ -1,0 +1,23 @@
+.bg-principal{
+    background-color: #c05fe6;
+}
+.nav-link{
+    color: #fff!important;
+}
+.nav-link:hover{
+    color: rgba(92, 11, 11, 0.89)!important;
+}
+.navbar-brand{
+    color: #fff!important;
+    font-size: 1.5rem!important;
+}
+.navbar-brand:hover{
+    color: rgba(224, 224, 224, 0.425)!important;
+}
+
+.custom-carousel img{
+    max-height: 90vh;
+}
+.fondo-caption{
+    background: rgba(0, 0, 0, 0.568);
+}
